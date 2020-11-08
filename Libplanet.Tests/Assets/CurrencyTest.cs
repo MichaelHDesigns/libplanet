@@ -63,7 +63,7 @@ namespace Libplanet.Tests.Assets
             AssertBytesEqual(expected, currency.Hash);
 
             currency = new Currency(
-                ticker: "NCG",
+                ticker: "SCN",
                 decimalPlaces: 8,
                 minters: ImmutableHashSet.Create(AddressA, AddressB)
             );
